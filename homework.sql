@@ -148,4 +148,5 @@ SELECT ca.name AS company_name, s.citizen_id FROM cable_tv ca
 LEFT JOIN subscriptions s ON ca.company_id = s.company_id
 WHERE s.citizen_id IS NULL;
 
+Thank you Itay
 
